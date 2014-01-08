@@ -52,7 +52,7 @@ Or you can configure a cron job to run it every `hour|day|week` using crontab
 $ crontab -e
 ```
 
-This would be a cron job to run do the backups every morning at 9:00
+This would be a cron job to do the backups every morning at 9:00
 
 ```bash
 0       9       *       *       *       sh ~/path/backup.sh >> ~/path/backup_errors.log
